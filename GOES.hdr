@@ -1,0 +1,18 @@
+ENVI
+description = {
+  Georeferenced Image built from input GLT. [Thu Jun 12 14:21:00 2014]}
+samples = 391
+lines   = 468
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {Case1_P41_DOY309, 1.0000, 1.0000, -320003.8136, 826893.4867, 2.5031000000e+003, 2.5031000000e+003, WGS-84, units=Meters, rotation=-10.00000000}
+projection info = {15, 6378137.0, 32.026707, -118.959070, 0.0, 0.0, 705000.000000, WGS-84, Case1_P41_DOY309, units=Meters}
+coordinate system string = {PROJCS["Case1_P41_DOY309",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Vertical_Near_Side_Perspective"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Longitude_Of_Center",-118.95907],PARAMETER["Latitude_Of_Center",32.026707],PARAMETER["Height",705000.0],UNIT["Meter",1.0]]}
+wavelength units = Unknown
+band names = {
+ Georef (Band 1:goes15.2013.309.Band4.img)}
