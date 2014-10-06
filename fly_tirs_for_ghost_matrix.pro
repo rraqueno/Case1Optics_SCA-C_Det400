@@ -101,8 +101,18 @@ end
 ;
 ;
 pro fly_tirs_for_ghost_matrix, image_filename, ghost_map_filename, $
-	flight_path_filename, SCA_letter, detector_number, ascending_or_descending 
+	flight_path_filename, detector_config_filename
 
+openr, lun, detector_config_filename, /get_lun
+
+SCA_letter=''
+detector_number=0 
+ascending_or_descending = ''
+readf,lun, SCA_letter
+readf,lun, detector_number
+readf,lun, ascending_or_descending
+
+free_lun, lun
 
 ;
 ; Get basenames from filename
